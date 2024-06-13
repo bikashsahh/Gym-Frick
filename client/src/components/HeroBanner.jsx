@@ -19,7 +19,7 @@ const Subtitle = styled.h2`
 `;
 const HeroBanner = () => (
   <Box sx={{ mt: { lg: '240px', xs: '70px' }, ml: { sm: '50px' }  , mb:{lg : '200px'} }}  position="relative" p="20px">
-    <Typography fontWeight={600} color="#FF2625" sx={{ lineHeight:{lg:'130px',xs:'60px'},opacity: '0.1', display: { lg: 'block', xs: 'block' }, fontSize: {lg :'100px',xs:'65px'},ml:{ lg :'-10px' ,xs:'-10px'} ,mt:{lg:'-230px',xs:'-100px'} , p:{xs:'1px'}}}>
+    <Typography fontWeight={590} color="#FF2625" sx={{ lineHeight:{lg:'130px',xs:'60px'},opacity: '0.1', display: { lg: 'block', xs: 'block' }, fontSize: {lg :'100px',xs:'65px'},ml:{ lg :'-10px' ,xs:'-10px'} ,mt:{lg:'-230px',xs:'-100px'} , p:{xs:'1px'}}}>
       Invigoration<br/>
       Power
     </Typography>
