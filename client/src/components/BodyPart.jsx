@@ -11,7 +11,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     onClick={() => {
 
       const screenWidth = window.innerWidth;
-      const scrollTop = screenWidth >= 1200 ? 1350 : 1000; // Example breakpoint for lg (1200px)
+      const scrollTop = screenWidth >= 1200 ? 1350 : 870; // Example breakpoint for lg (1200px)
 
       setBodyPart(item);
       // window.scrollTo({ sx: {top: { lg :1350 , xs : 1100}}, left: 100, behavior: "smooth" });
@@ -21,7 +21,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     {/* <img src={Icon} alt="dumbbell" style={{ width: '40px', height: '40px' }} /> */}
     <Typography
       sx={{fontSize : {lg : '19px' , xs :'15px'}}}
-      // fontSize="15px"
+      // fontSize="20px"
       fontWeight="bold"
       fontFamily="Alegreya"
       color="#3A1212"
